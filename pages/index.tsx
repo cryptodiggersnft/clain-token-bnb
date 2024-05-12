@@ -9,7 +9,7 @@ import Events from "../components/Events";
 const Home: NextPage = () => {
   return (
     <Container maxW={"1440px"} 
-    backgroundImage={`url('/images/Slider_principal.jpg')`}
+    backgroundImage={`url('/images/Slider_principal2.jpg')`}
     backgroundSize="cover"
     backgroundPosition="center"
     backgroundRepeat="no-repeat">
