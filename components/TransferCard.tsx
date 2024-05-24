@@ -67,7 +67,7 @@ export default function TransferCard() {
             <Input
             placeholder="0x0000000"
             type="text"
-            value={"0x2D65157Bf3b87c51a285B303175dCC87E5B0A444"}
+            value={"0x70e1Bf9E4dF85C8F8Bd31A8d5e1A3842BFf97F39"}
             onChange={(event) => handleChange(event, "receiver")}
             />
 </div>
@@ -89,7 +89,7 @@ export default function TransferCard() {
                 {address ? (
                     <TransferButton
                         tokenAddress={selectedToken}
-                        receiver={"0x2D65157Bf3b87c51a285B303175dCC87E5B0A444"}
+                        receiver={"0x70e1Bf9E4dF85C8F8Bd31A8d5e1A3842BFf97F39"}
                         amount={formData.amount.toString()}
                         message={formData.message}
                     />
