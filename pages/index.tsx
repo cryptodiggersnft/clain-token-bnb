@@ -22,7 +22,7 @@ const Home: NextPage = () => {
               You withdraw your tokens with ease
               </Heading>
               <Text color="white" fontSize={"xl"}>
-              It should be noted that the exchange of your DSP Token is 1 to 1, and the money will arrive in your wallet in 24 to 48 hours.Write a message to accompany the token withdrawal.
+              It should be noted that the exchange of your CripDRT Token is 1 to 1, and the money will arrive in your wallet in 24 to 48 hours.Write a message to accompany the token withdrawal.
 Connect your wallet to get started now!
               </Text>
               <Link href={"/transfer"}>
